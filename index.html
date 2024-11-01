@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Bounty Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Nature's Bounty</h1>
+        <nav>
+            <ul>
+                <li><a href="#food">Food Menu</a></li>
+                <li><a href="#drinks">Drink Menu</a></li>
+                <li><a href="#gallery" onclick="showUnderConstruction()">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="food">
+            <h2>Our Food Menu</h2>
+            <p>Explore our delicious range of organic dishes made with fresh ingredients.</p>
+            <!-- Add more content here -->
+        </section>
+
+        <section id="drinks">
+            <h2>Our Drink Menu</h2>
+            <p>Quench your thirst with our selection of natural juices and drinks.</p>
+            <!-- Add more content here -->
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Our gallery is currently under construction. Please check back later!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="formResponse"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nature's Bounty Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
